@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply Poppins font to the entire page */
+body {
+    font-family: 'Poppins';
+  }
+  

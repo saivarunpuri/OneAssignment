@@ -19,7 +19,7 @@ const PageTwo = () => {
             </p>
           </div>
 
-          {/* Image and Card on top of Image */}
+         
           <div className="relative">
          
             <div className="absolute bottom-[-80px] left-1/2 transform -translate-x-1/2 w-full max-w-[520px] z-10">
@@ -73,7 +73,7 @@ const PageTwo = () => {
   );
 };
 
-// Card with Progress Item Section
+
 const CardWithProgress = ({ title, progressItems }) => (
   <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-[420px] min-h-[200px]">
     <h3 className="text-[18px] font-semibold text-blue-800 mb-4">{title}</h3>
@@ -85,7 +85,6 @@ const CardWithProgress = ({ title, progressItems }) => (
   </div>
 );
 
-// Progress Item Component
 const ProgressItem = ({ label, percentage }) => {
   
   const progressPercentage = parseInt(percentage);

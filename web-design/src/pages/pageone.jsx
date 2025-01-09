@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import bgimage from "../assets/bg-image.png";
-import logo from "../assets/logo.png"; // Import your logo image
-import image1 from "../assets/image1.png"; // Import image1
-import image2 from "../assets/image2.png"; // Import image2
-import { FaBars, FaTimes } from 'react-icons/fa'; // Import FontAwesome icons
+import logo from "../assets/logo.png";
+import image1 from "../assets/image1.png"; 
+import image2 from "../assets/image2.png"; 
+import { FaBars, FaTimes } from 'react-icons/fa'; 
 
 const pageone = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -87,7 +87,7 @@ const pageone = () => {
           </button>
         </div>
 
-        {/* Right Side - Image 1 on top of Image 2 */}
+        {/* Right Side  */}
         <div className="w-full lg:w-1/2 text-center">
           <div className="relative mx-auto w-64 h-64 rounded-full overflow-hidden">
             <img

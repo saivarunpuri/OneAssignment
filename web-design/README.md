@@ -87,7 +87,7 @@ After following the steps above, your project should be set up with React, TypeS
 npm start
 ```
 
-This will start the development server at [http://localhost:3000](http://localhost:3000).
+This will start the development server at [http://localhost:5000].
 
 ---
 
@@ -100,10 +100,3 @@ You can now customize Tailwind CSS to fit your project needs by modifying the `t
 You might also want to install additional packages, such as React Router, for routing, or any state management tools like Redux or Zustand, depending on your project's requirements.
 
 ---
-
-## Conclusion
-
-You have now successfully set up a responsive website project using React, TypeScript, and Tailwind CSS. Start building your components and enjoy the flexibility of Tailwind for responsive design!
-```
-
-You can save this file as `README.md` in your project directory.

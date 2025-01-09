@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#0d1b3a] text-white py-10 pl-40">
       <div className="container mx-auto flex flex-wrap justify-between mt-10 px-6 py-4">
-        {/* Left Section: Image and Description */}
+        {/* Left Section */}
         <div className="w-full md:w-1/3 px-4 flex flex-col justify-start">
           <img
             src={footerlogo}
@@ -48,7 +48,7 @@ const Footer = () => {
         <div className="w-full md:w-2/3 flex justify-between space-x-8">
           <div className="md:w-1/2 px-4">
             <h3 className="font-bold mb-2">Quick Links</h3>
-            {/* White bar set to 30% width */}
+
             <div className="mt-4 h-1 bg-white w-[30%] mb-4"></div>
             <ul className="space-y-2">
               <li>
@@ -76,7 +76,7 @@ const Footer = () => {
 
           <div className="md:w-1/2 px-4">
             <h3 className="font-bold mb-2">Contact Us</h3>
-            {/* White bar set to 30% width */}
+           
             <div className="mt-4 h-1 bg-white w-[30%] mb-4"></div>
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
@@ -99,30 +99,28 @@ const Footer = () => {
         </div>
       </div>
 
+    
       {/* Footer Bottom */}
-      {/* Footer Bottom */}
-<div className="mt-10 border-t border-gray-700 pt-4 text-center">
-  <div className="flex justify-between items-center px-4 bg-[#122648] rounded-lg shadow-lg py-4 max-w-7xl mx-auto">
-    <p className="text-left text-white">Copyright © 2024 Vertexpace. All rights reserved.</p>
-    <div className="flex justify-end space-x-4 mt-2 text-white">
-      <a href="#" className="hover:text-gray-400">
-        Private Policy
-      </a>
-      <span>|</span>
-      <a href="#" className="hover:text-gray-400">
-        Support
-      </a>
-      <span>|</span>
-      <a href="#" className="hover:text-gray-400">
-        Terms & Condition
-      </a>
-    </div>
-  </div>
-</div>
-
-
-
-
+      <div className="mt-10 border-t border-gray-700 pt-4 text-center">
+        <div className="flex justify-between items-center px-4 bg-[#122648] rounded-lg shadow-lg py-4 max-w-7xl mx-auto">
+          <p className="text-left text-white">
+            Copyright © 2024 Vertexpace. All rights reserved.
+          </p>
+          <div className="flex justify-end space-x-4 mt-2 text-white">
+            <a href="#" className="hover:text-gray-400">
+              Private Policy
+            </a>
+            <span>|</span>
+            <a href="#" className="hover:text-gray-400">
+              Support
+            </a>
+            <span>|</span>
+            <a href="#" className="hover:text-gray-400">
+              Terms & Condition
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };

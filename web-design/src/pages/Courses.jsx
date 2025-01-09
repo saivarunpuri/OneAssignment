@@ -30,7 +30,7 @@ const Courses = () => {
             <div
               key={index}
               className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300"
-              style={{ height: '333px', width: '350px' }}  // Set card size here
+              style={{ height: '333px', width: '350px' }}  
             >
               <img
                 src={course.image}

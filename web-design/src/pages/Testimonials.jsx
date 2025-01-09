@@ -31,7 +31,7 @@ const Testimonials = () => {
             className="relative bg-white shadow-lg rounded-lg p-6 flex flex-col justify-center items-center" 
             style={{ width: '525px', height: '375px' }}
           >
-            {/* Large Quotation Mark */}
+           
             <div className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 text-[128px] text-[#122648]" style={{height:"145px",width:"163px"}}>
               "
             </div>

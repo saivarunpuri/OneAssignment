@@ -1,7 +1,7 @@
 import React from "react";
-import p2image1 from "../assets/p2image1.png";  // Assuming this is your image
-import starImage from "../assets/star.png";  // Assuming this is your star image
-import p2image3 from "../assets/p2image3.png"; // Assuming this is the image for the career compass
+import p2image1 from "../assets/p2image1.png";  
+import starImage from "../assets/star.png";  
+import p2image3 from "../assets/p2image3.png"; 
 
 const PageTwo = () => {
   return (
@@ -21,7 +21,7 @@ const PageTwo = () => {
 
           {/* Image and Card on top of Image */}
           <div className="relative">
-            {/* Card with Progress placed at the bottom of the image */}
+         
             <div className="absolute bottom-[-80px] left-1/2 transform -translate-x-1/2 w-full max-w-[520px] z-10">
               <CardWithProgress
                 title="Your Career Progress"
@@ -87,12 +87,12 @@ const CardWithProgress = ({ title, progressItems }) => (
 
 // Progress Item Component
 const ProgressItem = ({ label, percentage }) => {
-  // Convert percentage to a number
+  
   const progressPercentage = parseInt(percentage);
 
   return (
     <div className="relative">
-      {/* Progress Bar */}
+      
       <div className="w-full bg-gray-200 rounded-full h-2.5 mt-1">
         <div
           className="bg-[#113575] h-2.5 rounded-full"
@@ -100,7 +100,7 @@ const ProgressItem = ({ label, percentage }) => {
         ></div>
       </div>
 
-      {/* Percentage Label inside a small card at the Progress Bar's End */}
+     
       <div
         className="absolute top-[-20px] flex justify-center items-center font-bold text-white text-xs"
         style={{
@@ -123,13 +123,13 @@ const ProgressItem = ({ label, percentage }) => {
   );
 };
 
-// Card Component with Star Image on Left
+// Card Component
 const Card = ({ title, description }) => (
   <div className="bg-gray-100 p-6 rounded-lg shadow-md w-full max-w-[520px] min-h-[124.76px] flex gap-4">
     {/* Left Side (Star Image) */}
     <img src={starImage} alt="Star" className="w-[40px] h-[40px] rounded-full" />
 
-    {/* Right Side (Heading + Paragraph) */}
+    
     <div className="flex-1">
       <h3 className="text-[18px] font-bold mb-2" style={{color:"#113575"}} >{title}</h3>
       <p className="text-[15.5px] font-bold text-gray-600">{description}</p>

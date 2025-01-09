@@ -15,7 +15,6 @@ import Services from "./pages/Services";
 const App = () => {
   return (
     <div>
-      {/* Render Page One */}
       <PageOne />
       <Pagetwo />
       <Services/>

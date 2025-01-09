@@ -7,7 +7,7 @@ const AchievementsPage = () => {
       style={{
         width: "1440px",
         height: "715px",
-        backgroundColor: "#122648", // Updated background color
+        backgroundColor: "#122648", 
       }}
     >
       <div

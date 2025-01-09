@@ -8,12 +8,12 @@ const Choose = () => {
       style={{
         height: '1000px',
         width: '1440px',
-        background: `linear-gradient(180deg, #122648 0%, #0F3069 100%)`, // Gradient as the base background
+        background: `linear-gradient(180deg, #122648 0%, #0F3069 100%)`, 
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
-      {/* Background Image with Opacity */}
+      
       <div
         style={{
           position: 'absolute',
@@ -24,8 +24,8 @@ const Choose = () => {
           backgroundImage: `url(${choosebg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          opacity:10, // Adjust opacity of the image
-          zIndex: -1, // Place the image behind the content
+          opacity:10, 
+          zIndex: -1, 
         }}
       ></div>
 
